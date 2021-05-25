@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"This is Test to learn npm and git\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samarth009/Git-Test.git"
+  },
+  "author": "Samarth Aher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samarth009/Git-Test/issues"
+  },
+  "homepage": "https://github.com/samarth009/Git-Test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
